@@ -23,9 +23,9 @@ Each stage reads and writes its state to Airtable, so the pipeline can stop, res
 
 ## What's real here
 
-- **The orchestration**: `run_pipeline.js` and all six `agents/*.js` files are the actual production code, unedited beyond removing secrets.
-- **The output**: [`examples/sample-article.md`](./examples/sample-article.md) is a real article this pipeline generated end to end, including the internal links Agent 4b inserted (you can click them, they're live).
-- **The research brief**: [`examples/sample-research-brief.txt`](./examples/sample-research-brief.txt) is the real brief that produced that article, with company-specific product names swapped for generic placeholders (the structure and reasoning are untouched).
+- **The orchestration**: `run_pipeline.js` and all six `agent*.js` files are the actual production code, unedited beyond removing secrets.
+- **The output**: [`sample-article.md`](https://github.com/nahushgowda1400/IK-content-intelligence-agent/blob/main/sample-article.md) is a real article this pipeline generated end to end, including the internal links Agent 4b inserted (you can click them, they're live).
+- **The research brief**: [`sample-research-brief.txt`](https://github.com/nahushgowda1400/IK-content-intelligence-agent/blob/main/sample-research-brief.txt) is the real brief that produced that article, with company-specific product names swapped for generic placeholders (the structure and reasoning are untouched).
 
 ## What's been removed
 
@@ -49,4 +49,4 @@ npm run cron           # schedules a daily 9am run
 
 ---
 
-Part of Nahush Gowda's AI content systems work. See the full breakdown, including the content cluster map this pipeline feeds, on the AI Systems page of [my portfolio](https://github.com/PLACEHOLDER_USERNAME).
+Part of Nahush Gowda's AI content systems work, built alongside a portfolio site covering the content cluster map this pipeline feeds.
