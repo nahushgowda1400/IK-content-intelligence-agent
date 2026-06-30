@@ -1,0 +1,23 @@
+{
+  "name": "content-intelligence-agent",
+  "version": "1.0.0",
+  "description": "A six-agent content pipeline: fetches industry news, scores it for editorial relevance, researches and writes SEO articles, inserts internal links, and formats for publish, fully automated, with human checkpoints built in.",
+  "type": "module",
+  "scripts": {
+    "agent1": "node agents/agent1_fetch.js",
+    "agent2": "node agents/agent2_score.js",
+    "agent3": "node agents/agent3_research.js",
+    "agent4a": "node agents/agent4a_writer.js",
+    "agent4b": "node agents/agent4b_linker.js",
+    "agent4c": "node agents/agent4c_formatter.js",
+    "pipeline": "node run_pipeline.js",
+    "cron": "node cron.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^8.0.8",
+    "rss-parser": "^3.13.0"
+  }
+}

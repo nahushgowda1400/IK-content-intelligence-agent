@@ -1,0 +1,9 @@
+node_modules/
+.env
+google.credentials.json
+.claude/
+*.log
+
+# Real pipeline output stays local, only the curated examples/ folder is versioned
+/articles/
+/briefs/
